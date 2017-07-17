@@ -1,12 +1,10 @@
 import React from 'react'
+import Toolbar from './components/navbar/toolbar'
 
 import './app.styl'
 
 export default class App extends React.Component {
   render() {
-    return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
-      </div>)
+    return (<Toolbar/>)
   }
 }
